@@ -1,0 +1,1306 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="https://schema.org/VideoGame">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before the Ash - Build Ancient Pompeii | Free Strategy City Builder Game</title>
+    <meta name="description" content="Build ancient Pompeii before Mount Vesuvius erupts! Strategic city-builder with cards and hex tiles. Race against volcanic eruptions in this free browser game.">
+    <meta name="keywords" content="Before the Ash, Pompeii game, city builder, strategy game, card game, hex tiles, volcano game, Vesuvius, ancient Rome, browser game, free game">
+    <meta name="author" content="Before the Ash Studios">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="theme-color" content="#007aff">
+    <link rel="canonical" href="https://beforetheash.online/">
+    
+    <!-- Advanced SEO Meta Tags -->
+    <meta name="geo.region" content="US">
+    <meta name="geo.placename" content="Global">
+    <meta name="geo.position" content="0;0">
+    <meta name="ICBM" content="0, 0">
+    <meta name="rating" content="general">
+    <meta name="revisit-after" content="7 days">
+    <meta name="distribution" content="global">
+    <meta name="language" content="en">
+    <meta name="audience" content="all">
+    <meta name="web_author" content="Before the Ash Studios">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Before the Ash - Build Ancient Pompeii Before Vesuvius Erupts">
+    <meta property="og:description" content="Strategic city-builder with cards and hex tiles. Build Pompeii while racing against Mount Vesuvius in this engaging browser game!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://beforetheash.online/">
+    <meta property="og:site_name" content="Before the Ash">
+    <meta property="og:image" content="https://beforetheash.online/images/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Before the Ash - Pompeii City Builder Game Screenshot">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@BeforeTheAsh">
+    <meta name="twitter:creator" content="@BeforeTheAsh">
+    <meta name="twitter:title" content="Before the Ash - Build Ancient Pompeii">
+    <meta name="twitter:description" content="Strategy city-builder where you build Pompeii before Mount Vesuvius erupts. Card-based mechanics with hex tiles!">
+    <meta name="twitter:image" content="https://beforetheash.online/images/twitter-card.jpg">
+    <meta name="twitter:image:alt" content="Before the Ash Pompeii City Builder Game">
+    
+    <!-- Favicon and App Icons -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://html-classic.itch.zone">
+    <link rel="dns-prefetch" href="https://html-classic.itch.zone">
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FMR08EE0S6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-FMR08EE0S6', {
+            page_title: 'Before the Ash - Build Ancient Pompeii',
+            page_location: window.location.href,
+            content_group1: 'Gaming',
+            content_group2: 'Strategy',
+            custom_map: {
+                'custom_parameter_1': 'device_type',
+                'custom_parameter_2': 'game_action'
+            }
+        });
+    </script>
+
+    <style>
+        :root {
+            --primary-color: #007aff;
+            --secondary-color: #5856d6;
+            --accent-color: #ff6b6b;
+            --dark-color: #1d1d1f;
+            --light-gray: #f8f9fa;
+            --border-color: #e5e5e7;
+            --shadow-light: 0 2px 20px rgba(0, 0, 0, 0.1);
+            --shadow-heavy: 0 20px 60px rgba(0, 0, 0, 0.15);
+            --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --gradient-secondary: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            --vh: 1vh;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            color: var(--dark-color);
+            background: url('flash_973693_card.webp') no-repeat center center fixed;
+            background-size: cover;
+            overflow-x: hidden;
+        }
+
+        /* Enhanced Game-themed Animated Background with Glassmorphism */
+        .animated-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: -1;
+            background: 
+                /* Volcanic ash particles */
+                radial-gradient(circle at 20% 30%, rgba(255, 87, 51, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 80% 70%, rgba(255, 193, 7, 0.1) 0%, transparent 40%),
+                radial-gradient(circle at 40% 80%, rgba(76, 175, 80, 0.08) 0%, transparent 60%),
+                /* Base volcanic gradient */
+                linear-gradient(135deg, #667eea 0%, #764ba2 50%, #ff6b35 100%);
+            overflow: hidden;
+        }
+
+        .floating-element {
+            position: absolute;
+            border-radius: 6px;
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            animation: float 8s ease-in-out infinite;
+            transform-style: preserve-3d;
+        }
+
+        /* Hex-shaped floating elements representing game tiles */
+        .floating-element:nth-child(1) {
+            width: 60px;
+            height: 60px;
+            top: 15%;
+            left: 8%;
+            animation-delay: 0s;
+            clip-path: polygon(30% 0%, 70% 0%, 100% 50%, 70% 100%, 30% 100%, 0% 50%);
+            background: rgba(255, 71, 87, 0.15);
+            backdrop-filter: blur(15px);
+        }
+
+        .floating-element:nth-child(2) {
+            width: 40px;
+            height: 40px;
+            top: 65%;
+            left: 85%;
+            animation-delay: 3s;
+            clip-path: polygon(30% 0%, 70% 0%, 100% 50%, 70% 100%, 30% 100%, 0% 50%);
+            background: rgba(76, 175, 80, 0.12);
+            backdrop-filter: blur(12px);
+        }
+
+        .floating-element:nth-child(3) {
+            width: 30px;
+            height: 30px;
+            top: 85%;
+            left: 15%;
+            animation-delay: 6s;
+            clip-path: polygon(30% 0%, 70% 0%, 100% 50%, 70% 100%, 30% 100%, 0% 50%);
+            background: rgba(33, 150, 243, 0.1);
+            backdrop-filter: blur(8px);
+        }
+
+        .floating-element:nth-child(4) {
+            width: 80px;
+            height: 80px;
+            top: 35%;
+            left: 75%;
+            animation-delay: 2s;
+            clip-path: polygon(30% 0%, 70% 0%, 100% 50%, 70% 100%, 30% 100%, 0% 50%);
+            background: rgba(255, 193, 7, 0.08);
+            backdrop-filter: blur(20px);
+        }
+
+        @keyframes float {
+            0%, 100% { 
+                transform: translateY(0px) rotate(0deg) scale(1); 
+            }
+            25% { 
+                transform: translateY(-20px) rotate(5deg) scale(1.05); 
+            }
+            50% { 
+                transform: translateY(-10px) rotate(-3deg) scale(0.95); 
+            }
+            75% { 
+                transform: translateY(15px) rotate(8deg) scale(1.02); 
+            }
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Enhanced Glassmorphism Header */
+        header {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            padding: 1rem 0;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: transform 0.3s ease;
+        }
+
+        .logo:hover {
+            transform: scale(1.05);
+        }
+
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+            background: linear-gradient(135deg, #ff4757 0%, #ff6b35 50%, #ffa726 100%);
+            border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 1.1rem;
+            position: relative;
+            box-shadow: 0 4px 15px rgba(255, 71, 87, 0.3);
+        }
+
+        .logo-icon::before {
+            content: '';
+            position: absolute;
+            top: 15%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 3px;
+            height: 8px;
+            background: linear-gradient(to top, transparent, #ffeb3b, #ff5722);
+            border-radius: 2px;
+            animation: lava-glow 2s ease-in-out infinite alternate;
+        }
+
+        .logo-icon::after {
+            content: '🌋';
+            font-size: 0.9rem;
+            position: absolute;
+        }
+
+        @keyframes lava-glow {
+            0% { 
+                height: 8px;
+                opacity: 0.7;
+            }
+            100% { 
+                height: 12px;
+                opacity: 1;
+                box-shadow: 0 0 8px #ff5722;
+            }
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: var(--dark-color);
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            backdrop-filter: blur(10px);
+        }
+
+        nav a:hover {
+            color: var(--primary-color);
+            background: rgba(0, 122, 255, 0.1);
+            backdrop-filter: blur(15px);
+        }
+
+        /* Enhanced Game Hero Section with Glassmorphism */
+        .game-hero {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 2rem 0;
+            position: relative;
+        }
+
+        .game-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(1px);
+            z-index: 0;
+        }
+
+        .game-hero-content {
+            position: relative;
+            z-index: 1;
+            width: 100%;
+            max-width: 1000px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            padding: 3rem 2rem;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        .game-title {
+            font-size: 4rem;
+            font-weight: 900;
+            color: white;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+            background: linear-gradient(45deg, #fff, #007aff);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .game-subtitle {
+            font-size: 1.4rem;
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 3rem;
+            font-weight: 500;
+        }
+
+        .game-container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: var(--shadow-heavy);
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            position: relative;
+        }
+
+        .game-frame {
+            width: 100%;
+            height: 70vh;
+            min-height: 500px;
+            border: none;
+            display: block;
+        }
+
+        .loading-screen {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(102, 126, 234, 0.9);
+            backdrop-filter: blur(20px);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.3rem;
+            z-index: 10;
+            transition: opacity 0.3s ease;
+        }
+
+        .loading-spinner {
+            width: 60px;
+            height: 60px;
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            border-top: 4px solid white;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-bottom: 2rem;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .game-controls {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(15px);
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .control-btn {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            color: white;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .control-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Enhanced Features Section */
+        .features-section {
+            padding: 6rem 0;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            position: relative;
+        }
+
+        .section-title {
+            font-size: 3rem;
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 1rem;
+            background: var(--gradient-primary);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .section-subtitle {
+            font-size: 1.2rem;
+            text-align: center;
+            color: #6e6e73;
+            margin-bottom: 4rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 4rem;
+        }
+
+        .feature-card {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(20px);
+            padding: 2.5rem 2rem;
+            border-radius: 20px;
+            box-shadow: var(--shadow-light);
+            transition: all 0.3s ease;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-heavy);
+            background: rgba(255, 255, 255, 0.95);
+        }
+
+        .feature-icon {
+            width: 80px;
+            height: 80px;
+            background: var(--gradient-primary);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 2rem;
+            font-size: 2rem;
+            color: white;
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+        }
+
+        .feature-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--dark-color);
+        }
+
+        .feature-description {
+            color: #6e6e73;
+            line-height: 1.8;
+            font-size: 1.1rem;
+        }
+
+        /* How to Play Section */
+        .how-to-play-section {
+            padding: 6rem 0;
+            background: rgba(248, 249, 250, 0.95);
+            backdrop-filter: blur(20px);
+        }
+
+        .how-to-play-content {
+            display: grid;
+            grid-template-columns: 1fr 400px;
+            gap: 4rem;
+            align-items: start;
+        }
+
+        .gameplay-steps {
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+        }
+
+        .step {
+            display: flex;
+            align-items: flex-start;
+            gap: 1.5rem;
+        }
+
+        .step-number {
+            width: 40px;
+            height: 40px;
+            background: var(--primary-color);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.2rem;
+            flex-shrink: 0;
+        }
+
+        .step-content h3 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: var(--dark-color);
+        }
+
+        .step-content p {
+            color: #6e6e73;
+            line-height: 1.7;
+        }
+
+        .game-controls-panel {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(20px);
+            border-radius: 20px;
+            padding: 2rem;
+            box-shadow: var(--shadow-light);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            position: sticky;
+            top: 100px;
+        }
+
+        .controls-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            color: var(--dark-color);
+        }
+
+        .control-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid rgba(230, 230, 230, 0.5);
+        }
+
+        .control-row:last-child {
+            border-bottom: none;
+        }
+
+        .control-action {
+            color: #6e6e73;
+            font-size: 0.95rem;
+        }
+
+        .control-key {
+            background: rgba(102, 126, 234, 0.1);
+            color: var(--primary-color);
+            padding: 0.3rem 0.6rem;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        /* About Section */
+        .about-section {
+            padding: 6rem 0;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+        }
+
+        .about-content {
+            display: grid;
+            grid-template-columns: 400px 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .about-image {
+            width: 100%;
+            height: 300px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 3rem;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            box-shadow: var(--shadow-heavy);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .about-image::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><polygon points="50,10 90,30 90,70 50,90 10,70 10,30" fill="rgba(255,255,255,0.1)"/></svg>') repeat;
+            background-size: 30px 30px;
+            opacity: 0.3;
+        }
+
+        .about-text-content h2 {
+            margin-bottom: 2rem;
+        }
+
+        .about-text {
+            font-size: 1.2rem;
+            color: #6e6e73;
+            line-height: 1.8;
+            margin-bottom: 2rem;
+        }
+
+        /* Game Credits Section */
+        .credits-section {
+            padding: 6rem 0;
+            background: rgba(248, 249, 250, 0.95);
+            backdrop-filter: blur(20px);
+        }
+
+        .credits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 3rem;
+            margin-top: 3rem;
+        }
+
+        .credit-card {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(20px);
+            padding: 2rem;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: var(--shadow-light);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .credit-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-heavy);
+        }
+
+        .credit-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .credit-name {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--dark-color);
+        }
+
+        /* Call to Action Section */
+        .cta-section {
+            padding: 6rem 0;
+            background: var(--gradient-primary);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            width: 200%;
+            height: 200%;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><polygon points="50,10 90,30 90,70 50,90 10,70 10,30" fill="rgba(255,255,255,0.05)"/></svg>') repeat;
+            background-size: 50px 50px;
+            animation: float 20s linear infinite;
+            opacity: 0.5;
+        }
+
+        .cta-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .cta-title {
+            font-size: 3rem;
+            font-weight: 800;
+            color: white;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .cta-subtitle {
+            font-size: 1.3rem;
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 3rem;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .cta-button {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(20px);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .cta-button:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .cta-button.primary {
+            background: white;
+            color: var(--primary-color);
+        }
+
+        .cta-button.primary:hover {
+            background: rgba(255, 255, 255, 0.9);
+        }
+
+        /* Footer */
+        footer {
+            background: rgba(29, 29, 31, 0.95);
+            backdrop-filter: blur(20px);
+            color: white;
+            padding: 3rem 0;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h3 {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-links a {
+            color: #a1a1a6;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: var(--primary-color);
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid #333;
+            color: #a1a1a6;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            .how-to-play-content,
+            .about-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .game-controls-panel {
+                position: static;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .game-title {
+                font-size: 2.5rem;
+            }
+
+            .game-subtitle {
+                font-size: 1.1rem;
+            }
+
+            .game-frame {
+                height: 50vh;
+                min-height: 350px;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .credits-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .header-content {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            nav ul {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 15px;
+            }
+
+            .game-title {
+                font-size: 2rem;
+            }
+
+            .game-hero-content {
+                padding: 2rem 1rem;
+                margin: 0 1rem;
+            }
+
+            .credits-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Performance optimizations */
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Enhanced Animated Background -->
+    <div class="animated-bg">
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+    </div>
+
+    <header role="banner">
+        <div class="container">
+            <div class="header-content">
+                <a href="/" class="logo" aria-label="Before the Ash - Home">
+                    <div class="logo-icon" aria-hidden="true">BA</div>
+                    <span>Before the Ash</span>
+                </a>
+                <nav role="navigation" aria-label="Main navigation">
+                    <ul>
+                        <li><a href="#game">Play Game</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#how-to-play">How to Play</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#credits">Credits</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main role="main">
+        <section class="game-hero" id="game">
+            <div class="container">
+                <div class="game-hero-content">
+                    <h1 class="game-title">Before the Ash</h1>
+                    <p class="game-subtitle">
+                        Build and grow ancient Pompeii before Mount Vesuvius erupts! A strategic city-builder with cards and hexagonal tiles where every decision counts against time.
+                    </p>
+                    
+                    <div class="game-container">
+                        <div class="loading-screen" id="loadingScreen">
+                            <div class="loading-spinner"></div>
+                            <div>Loading Epic Adventure...</div>
+                            <p style="font-size: 0.9rem; margin-top: 1rem; opacity: 0.8;">
+                                Get ready for an immersive gaming experience
+                            </p>
+                        </div>
+                        <iframe 
+                            id="gameFrame"
+                            class="game-frame"
+                            src=""
+                            allowfullscreen
+                            title="Before the Ash - Adventure Game"
+                            aria-label="Before the Ash interactive game">
+                        </iframe>
+                        <div class="game-controls">
+                            <button class="control-btn" onclick="toggleFullscreen();">
+                                ⛶ Fullscreen
+                            </button>
+                            <button class="control-btn" onclick="refreshGame();">
+                                ↻ Restart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features-section">
+            <div class="container">
+                <h2 class="section-title">Game Features</h2>
+                <p class="section-subtitle">Discover what makes Before the Ash a unique and engaging strategy experience</p>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🏛️</div>
+                        <h3 class="feature-title">Strategic City Building</h3>
+                        <p class="feature-description">
+                            Build and expand ancient Pompeii using hexagonal tiles. Each placement affects resource generation and city prosperity.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📋</div>
+                        <h3 class="feature-title">Innovative Card Mechanics</h3>
+                        <p class="feature-description">
+                            Use building cards strategically to develop your city. Manage your hand and plan ahead for maximum efficiency.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🌋</div>
+                        <h3 class="feature-title">Volcanic Disasters</h3>
+                        <p class="feature-description">
+                            Face frequent eruptions from Mount Vesuvius. Extinguish fires, manage disasters, and race against the final cataclysm.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3 class="feature-title">Resource Management</h3>
+                        <p class="feature-description">
+                            Balance wood, stone, gold, and population. Accumulate resources to unlock advanced buildings and strategies.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">☀️</div>
+                        <h3 class="feature-title">Faith System</h3>
+                        <p class="feature-description">
+                            Generate faith by extinguishing fires. Use this precious resource to reroll cards and delay the final eruption.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">💡</div>
+                        <h3 class="feature-title">One-Handed Gameplay</h3>
+                        <p class="feature-description">
+                            Designed for accessibility and convenience. Play entirely with mouse controls, perfect for any gaming setup.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-to-play" class="how-to-play-section">
+            <div class="container">
+                <h2 class="section-title">How to Play</h2>
+                <p class="section-subtitle">Master the art of ancient city planning with these essential gameplay mechanics</p>
+                
+                <div class="how-to-play-content">
+                    <div class="gameplay-steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h3>Place Buildings Strategically</h3>
+                                <p>Use cards to place buildings on hexagonal tiles. Each building generates resources over time and contributes to your city's growth.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h3>Manage Resources Wisely</h3>
+                                <p>Balance wood, stone, gold, and population. Accumulate resources to unlock higher-tier buildings with better yields.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h3>Fight the Fires</h3>
+                                <p>Click on fires to extinguish them and prevent spread. Extinguishing fires generates valuable faith points for strategic advantages.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="step">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h3>Maximize Your Score</h3>
+                                <p>Score points by placing buildings, extinguishing fires, gathering resources, and restoring charred tiles before the final eruption.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="game-controls-panel">
+                        <h3 class="controls-title">Game Controls</h3>
+                        <div class="control-row">
+                            <span class="control-action">Left Click on Cards</span>
+                            <span class="control-key">Enter Build Mode</span>
+                        </div>
+                        <div class="control-row">
+                            <span class="control-action">Right Click</span>
+                            <span class="control-key">Exit Build Mode</span>
+                        </div>
+                        <div class="control-row">
+                            <span class="control-action">Left Click on Fires</span>
+                            <span class="control-key">Extinguish Fires</span>
+                        </div>
+                        <div class="control-row">
+                            <span class="control-action">Press 'C'</span>
+                            <span class="control-key">Toggle CRT Effect</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="flash_973693_card.webp" alt="Before the Ash Game" style="width:100%;border-radius:16px;box-shadow:0 4px 24px rgba(0,0,0,0.2);" />
+                    </div>
+                    <div class="about-text-content">
+                        <h2 class="section-title">About Before the Ash</h2>
+                        <p class="about-text">
+                            Before the Ash is an innovative strategy city-builder that combines traditional urban planning with unique card-based mechanics. Set in ancient Pompeii, players must develop a thriving civilization while constantly facing the looming threat of Mount Vesuvius.
+                        </p>
+                        <p class="about-text">
+                            Originally created in just one week for the Godot Wild Jam 79, this game has captivated players with its unique "one-handed" gameplay design and compelling time-pressure mechanics that create an intense yet strategic gaming experience.
+                        </p>
+                        <p class="about-text">
+                            The game features a distinctive hexagonal tile system where every placement decision matters, as you balance resource generation, city expansion, and volcanic disaster management in a race against time.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="credits" class="credits-section">
+            <div class="container">
+                <h2 class="section-title">Game Credits</h2>
+                <div class="credits-grid">
+                    <div class="credit-card">
+                        <div class="credit-title">Game Design & Programming</div>
+                        <div class="credit-name">Aviv Levy</div>
+                    </div>
+                    <div class="credit-card">
+                        <div class="credit-title">Music & Sound Effects</div>
+                        <div class="credit-name">Paul Maaswinkel</div>
+                    </div>
+                    <div class="credit-card">
+                        <div class="credit-title">Engine</div>
+                        <div class="credit-name">Godot Engine 4.4</div>
+                    </div>
+                    <div class="credit-card">
+                        <div class="credit-title">Art Tools</div>
+                        <div class="credit-name">Pyxel Edit</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2 class="cta-title">Before the Ash</h2>
+                    <p class="cta-subtitle">Experience the ultimate strategy challenge in ancient Pompeii. Build, survive, and achieve the highest score before the volcano erupts.</p>
+                    <div class="cta-buttons">
+                        <a href="#game" class="cta-button primary">Play Game</a>
+                        <a href="https://avivlevy.itch.io/before-the-ash" class="cta-button" target="_blank">Download Game</a>
+                        <a href="https://itch.io/" class="cta-button" target="_blank">More Games</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="container">
+            <div class="footer-bottom" style="text-align:center;padding:32px 0 0 0;">
+                <h2 style="margin-bottom:12px;">Before the Ash</h2>
+                <p>Experience the ultimate strategy challenge in ancient Pompeii. Build, survive, and achieve the highest score before the volcano erupts.</p>
+                <div style="margin:18px 0;">
+                    <a href="#game" style="margin-right:16px;">Download Game</a>
+                    <a href="#" style="margin-left:16px;">Newgrounds</a>
+                </div>
+                <div style="margin-top:24px;font-size:0.95em;opacity:0.7;">
+                    © 2025 Aviv Levy. All rights reserved. | Game originally created for Godot Wild Jam 79
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Enhanced game loading functionality
+        function loadGame() {
+            const gameFrame = document.getElementById('gameFrame');
+            const loadingScreen = document.getElementById('loadingScreen');
+            
+            const gameUrl = 'https://html-classic.itch.zone/html/13231466/before_the_ash_1.1_html5/index.html';
+            
+            gameFrame.src = gameUrl;
+            
+            setTimeout(() => {
+                hideLoadingScreen(2000);
+            }, 1000);
+        }
+
+        function hideLoadingScreen(delay = 300) {
+            const loadingScreen = document.getElementById('loadingScreen');
+            setTimeout(() => {
+                loadingScreen.style.opacity = '0';
+                setTimeout(() => {
+                    loadingScreen.style.display = 'none';
+                }, 300);
+            }, delay);
+        }
+
+        function toggleFullscreen() {
+            const gameFrame = document.getElementById('gameFrame');
+            
+            if (!document.fullscreenElement) {
+                if (gameFrame.requestFullscreen) {
+                    gameFrame.requestFullscreen();
+                } else if (gameFrame.webkitRequestFullscreen) {
+                    gameFrame.webkitRequestFullscreen();
+                } else if (gameFrame.mozRequestFullScreen) {
+                    gameFrame.mozRequestFullScreen();
+                } else if (gameFrame.msRequestFullscreen) {
+                    gameFrame.msRequestFullscreen();
+                }
+            } else {
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                } else if (document.webkitExitFullscreen) {
+                    document.webkitExitFullscreen();
+                } else if (document.mozCancelFullScreen) {
+                    document.mozCancelFullScreen();
+                } else if (document.msExitFullscreen) {
+                    document.msExitFullscreen();
+                }
+            }
+        }
+
+        function refreshGame() {
+            const gameFrame = document.getElementById('gameFrame');
+            const loadingScreen = document.getElementById('loadingScreen');
+            
+            loadingScreen.style.display = 'flex';
+            loadingScreen.style.opacity = '1';
+            
+            setTimeout(() => {
+                gameFrame.src = gameFrame.src;
+                hideLoadingScreen(2000);
+            }, 500);
+        }
+
+        // Smooth scrolling
+        function smoothScrollTo(target) {
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        }
+
+        // Initialize everything
+        document.addEventListener('DOMContentLoaded', function() {
+            // Load game immediately
+            loadGame();
+            
+            // Setup navigation
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    smoothScrollTo(target);
+                });
+            });
+
+            // Lazy loading for elements
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            // Apply lazy loading to sections
+            document.querySelectorAll('section').forEach(section => {
+                section.style.opacity = '0';
+                section.style.transform = 'translateY(20px)';
+                section.style.transition = 'all 0.6s ease';
+                observer.observe(section);
+            });
+
+            // Show first section immediately
+            document.querySelector('.game-hero').style.opacity = '1';
+            document.querySelector('.game-hero').style.transform = 'translateY(0)';
+        });
+
+        // Handle orientation changes
+        window.addEventListener('orientationchange', function() {
+            setTimeout(() => {
+                const gameFrame = document.getElementById('gameFrame');
+                if (gameFrame && gameFrame.src) {
+                    gameFrame.style.height = getComputedStyle(gameFrame).height;
+                }
+            }, 100);
+        });
+    </script>
+</body>
+</html>
