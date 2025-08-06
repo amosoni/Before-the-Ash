@@ -1,0 +1,11 @@
+# AI Crawler Activity Log
+# This file tracks AI bot activity for monitoring purposes
+
+# Log format: Date | Bot Name | Request Count | Status
+# Example entries:
+# 2025-01-27 | ChatGPT-User | 15 | Active
+# 2025-01-27 | Google-Extended | 23 | Active
+# 2025-01-27 | ClaudeBot | 8 | Active
+
+# This file helps monitor AI crawler activity
+# and optimize content for AI search engines 

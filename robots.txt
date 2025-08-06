@@ -1,0 +1,79 @@
+User-agent: *
+Allow: /
+
+# AI Bot Specific Rules
+User-agent: AhrefsBot
+Allow: /
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+
+User-agent: GPTBot
+Allow: /
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+
+User-agent: GeminiBot
+Allow: /
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+
+User-agent: BardBot
+Allow: /
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+
+User-agent: AnthropicBot
+Allow: /
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+
+User-agent: Applebot
+Allow: /
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+
+# Prevent duplicate content issues
+Disallow: /index.html
+Disallow: /test.html
+
+# Allow all other content
+Allow: /images/
+Allow: /css/
+Allow: /js/
+Allow: /favicon.ico
+Allow: /apple-touch-icon.png
+Allow: /favicon-32x32.png
+Allow: /favicon-16x16.png
+Allow: /site.webmanifest
+Allow: /flash_973693_card.webp
+
+# Sitemap location
+Sitemap: https://beforetheash.online/sitemap.xml
+
+# Crawl delay to be respectful to the server
+Crawl-delay: 1 
