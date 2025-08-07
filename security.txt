@@ -1,0 +1,12 @@
+# Security Policy for beforetheash.online
+# This file declares the security policy for this website
+
+Contact: mailto:security@beforetheash.online
+Expires: 2025-12-31T23:59:59.000Z
+Preferred-Languages: en
+Canonical: https://beforetheash.online/.well-known/security.txt
+
+# This website is a legitimate game website
+# No malicious content or deceptive practices
+# All external links are to trusted sources (itch.io, etc.)
+# No user data collection or tracking beyond standard analytics 

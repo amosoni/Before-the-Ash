@@ -1,1 +1,5 @@
- 
+# This is a placeholder for favicon.ico
+# In a real implementation, this should be a binary .ico file
+# For now, we'll create a simple text representation
+# The actual favicon.ico should be created using an image editor
+# and should be 16x16, 32x32, or 48x48 pixels in size 

@@ -72,4 +72,6 @@ RewriteRule ^(.+)$ $1.html [L]
     Header always set X-XSS-Protection "1; mode=block"
     Header always set Referrer-Policy "strict-origin-when-cross-origin"
     Header always set X-Robots-Tag "index, follow"
+    Header always set Content-Security-Policy "default-src 'self' https: data: 'unsafe-inline' 'unsafe-eval'; script-src 'self' https://www.googletagmanager.com https://html-classic.itch.zone; frame-src 'self' https://html-classic.itch.zone; img-src 'self' data: https:; style-src 'self' 'unsafe-inline';"
+    Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
 </IfModule> 

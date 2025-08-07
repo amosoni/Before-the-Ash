@@ -71,6 +71,7 @@ Allow: /favicon-32x32.png
 Allow: /favicon-16x16.png
 Allow: /site.webmanifest
 Allow: /flash_973693_card.webp
+Allow: /security.txt
 
 # Sitemap location
 Sitemap: https://beforetheash.online/sitemap.xml
