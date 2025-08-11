@@ -1,61 +1,75 @@
 User-agent: *
 Allow: /
+Disallow: /#*
+Disallow: /index.html
+Disallow: /test.html
 
 # AI Bot Specific Rules
 User-agent: AhrefsBot
 Allow: /
 Disallow: /wp-admin/
 Disallow: /wp-includes/
+Disallow: /#*
 
 User-agent: Bingbot
 Allow: /
 Disallow: /wp-admin/
 Disallow: /wp-includes/
+Disallow: /#*
 
 User-agent: ChatGPT-User
 Allow: /
 Disallow: /wp-admin/
 Disallow: /wp-includes/
+Disallow: /#*
 
 User-agent: Google-Extended
 Allow: /
 Disallow: /wp-admin/
 Disallow: /wp-includes/
+Disallow: /#*
 
 User-agent: GPTBot
 Allow: /
 Disallow: /wp-admin/
 Disallow: /wp-includes/
+Disallow: /#*
 
 User-agent: ClaudeBot
 Allow: /
 Disallow: /wp-admin/
 Disallow: /wp-includes/
+Disallow: /#*
 
 User-agent: GeminiBot
 Allow: /
 Disallow: /wp-admin/
 Disallow: /wp-includes/
+Disallow: /#*
 
 User-agent: BardBot
 Allow: /
 Disallow: /wp-admin/
 Disallow: /wp-includes/
+Disallow: /#*
 
 User-agent: PerplexityBot
 Allow: /
 Disallow: /wp-admin/
 Disallow: /wp-includes/
+Disallow: /#*
 
 User-agent: AnthropicBot
 Allow: /
 Disallow: /wp-admin/
 Disallow: /wp-includes/
+Disallow: /#*
 
 User-agent: Applebot
 Allow: /
 Disallow: /wp-admin/
 Disallow: /wp-includes/
+Disallow: /#*
 
 # Prevent duplicate content issues
 Disallow: /index.html
@@ -66,9 +80,6 @@ Allow: /images/
 Allow: /css/
 Allow: /js/
 Allow: /favicon.ico
-Allow: /apple-touch-icon.png
-Allow: /favicon-32x32.png
-Allow: /favicon-16x16.png
 Allow: /site.webmanifest
 Allow: /flash_973693_card.webp
 Allow: /security.txt

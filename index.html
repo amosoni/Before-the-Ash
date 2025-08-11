@@ -8,10 +8,19 @@
     <meta name="keywords" content="Before the Ash, Pompeii game, city builder, strategy game, card game, hex tiles, volcano game, Vesuvius, browser game">
     <meta name="author" content="Before the Ash Studios">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="googlebot" content="index, follow, noarchive">
+    <meta name="bingbot" content="index, follow, noarchive">
     <meta name="theme-color" content="#007aff">
     
     <!-- Fixed Canonical URL - Remove trailing slash to prevent redirect issues -->
     <link rel="canonical" href="https://beforetheash.online">
+    
+    <!-- Additional canonical URLs for main sections to help with internal linking -->
+    <link rel="alternate" href="https://beforetheash.online" hreflang="en">
+    <link rel="alternate" href="https://beforetheash.online" hreflang="x-default">
+    
+    <!-- Remove hash fragment URLs from sitemap to prevent indexing issues -->
+    <!-- Hash fragments (#about, #features, etc.) are not crawlable by search engines -->
     
     <!-- Advanced SEO Meta Tags -->
     <meta name="geo.region" content="US">
@@ -31,8 +40,6 @@
     <meta name="subject" content="Before the Ash, Pompeii, Strategy Game, City Builder">
     
     <!-- AI-friendly meta tags for better crawling -->
-    <meta name="googlebot" content="index, follow">
-    <meta name="bingbot" content="index, follow">
     <meta name="slurp" content="index, follow">
     <meta name="chatgpt-user" content="index, follow">
     <meta name="gptbot" content="index, follow">
@@ -64,9 +71,6 @@
     
     <!-- Favicon and App Icons -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     
     <!-- Preconnect for Performance -->
@@ -74,6 +78,10 @@
     <link rel="dns-prefetch" href="https://html-classic.itch.zone">
     <link rel="preconnect" href="https://www.googletagmanager.com">
     <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="flash_973693_card.webp" as="image" type="image/webp">
+    <link rel="preload" href="/favicon.ico" as="image" type="image/x-icon">
     
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-FMR08EE0S6"></script>
@@ -120,7 +128,7 @@
             "@type": "Organization",
             "name": "Before the Ash Studios"
         },
-        "datePublished": "2024",
+        "datePublished": "2024-01-27",
         "inLanguage": "en",
         "isAccessibleForFree": true,
         "aggregateRating": {
@@ -1004,11 +1012,11 @@
                 </a>
                 <nav role="navigation" aria-label="Main navigation">
                     <ul>
-                        <li><a href="#game" title="Play Before the Ash Game">Play Game</a></li>
-                        <li><a href="#features" title="Game Features">Features</a></li>
-                        <li><a href="#how-to-play" title="How to Play Before the Ash">How to Play</a></li>
-                        <li><a href="#about" title="About Before the Ash Game">About</a></li>
-                        <li><a href="#credits" title="Game Credits">Credits</a></li>
+                        <li><a href="#game" title="Play Before the Ash Game" data-section="game">Play Game</a></li>
+                        <li><a href="#features" title="Game Features" data-section="features">Features</a></li>
+                        <li><a href="#how-to-play" title="How to Play Before the Ash" data-section="how-to-play">How to Play</a></li>
+                        <li><a href="#about" title="About Before the Ash Game" data-section="about">About</a></li>
+                        <li><a href="#credits" title="Game Credits" data-section="credits">Credits</a></li>
                     </ul>
                 </nav>
             </div>
@@ -1171,7 +1179,7 @@
             <div class="container">
                 <div class="about-content">
                     <div class="about-image">
-                        <img src="flash_973693_card.webp" alt="Before the Ash Game" style="width:100%;border-radius:16px;box-shadow:0 4px 24px rgba(0,0,0,0.2);" />
+                        <img src="flash_973693_card.webp" alt="Before the Ash - Pompeii City Builder Game Screenshot" style="width:100%;border-radius:16px;box-shadow:0 4px 24px rgba(0,0,0,0.2);" loading="lazy" />
                     </div>
                     <div class="about-text-content">
                         <h2 class="section-title">About Before the Ash</h2>
@@ -1219,7 +1227,7 @@
                     <h2 class="cta-title">Before the Ash</h2>
                     <p class="cta-subtitle">Experience the ultimate strategy challenge in ancient Pompeii. Build, survive, and achieve the highest score before the volcano erupts.</p>
                     <div class="cta-buttons">
-                        <a href="#game" class="cta-button primary" title="Play Before the Ash Game">Play Game</a>
+                        <a href="#game" class="cta-button primary" title="Play Before the Ash Game" data-section="game">Play Game</a>
                         <a href="https://avivlevy.itch.io/before-the-ash" class="cta-button" target="_blank" title="Download Before the Ash Game">Download Game</a>
                         <a href="https://itch.io/" class="cta-button" target="_blank" title="Discover More Games">More Games</a>
                     </div>
@@ -1234,7 +1242,7 @@
                 <h2 style="margin-bottom:12px;">Before the Ash</h2>
                 <p>Experience the ultimate strategy challenge in ancient Pompeii. Build, survive, and achieve the highest score before the volcano erupts.</p>
                 <div style="margin:18px 0;">
-                    <a href="#game" style="margin-right:16px;" title="Play Before the Ash Game">Play Game</a>
+                    <a href="#game" style="margin-right:16px;" title="Play Before the Ash Game" data-section="game">Play Game</a>
                     <a href="https://avivlevy.itch.io/before-the-ash" style="margin-left:16px;" title="Download Before the Ash Game" target="_blank">Download Game</a>
                 </div>
                 <div style="margin-top:24px;font-size:0.95em;opacity:0.7;">
@@ -1257,6 +1265,39 @@
             setTimeout(() => {
                 hideLoadingScreen(2000);
             }, 1000);
+        }
+
+        // Enhanced navigation function to prevent hash fragment indexing
+        function navigateToSection(sectionId) {
+            const target = document.getElementById(sectionId);
+            if (target) {
+                smoothScrollTo(target);
+                
+                // Update URL with query parameter instead of hash for better SEO
+                const newUrl = window.location.origin + window.location.pathname + '?section=' + sectionId;
+                window.history.replaceState({ section: sectionId }, '', newUrl);
+                
+                // Update page title for better SEO
+                const sectionNames = {
+                    'game': 'Play Game - Before the Ash',
+                    'features': 'Game Features - Before the Ash',
+                    'how-to-play': 'How to Play - Before the Ash',
+                    'about': 'About - Before the Ash',
+                    'credits': 'Game Credits - Before the Ash'
+                };
+                
+                if (sectionNames[sectionId]) {
+                    document.title = sectionNames[sectionId];
+                }
+                
+                // Send analytics event for better tracking
+                if (typeof gtag !== 'undefined') {
+                    gtag('event', 'section_navigation', {
+                        'section_name': sectionId,
+                        'page_title': document.title
+                    });
+                }
+            }
         }
 
         function hideLoadingScreen(delay = 300) {
@@ -1320,17 +1361,47 @@
 
         // Initialize everything
         document.addEventListener('DOMContentLoaded', function() {
+            // Performance monitoring
+            if ('performance' in window) {
+                window.addEventListener('load', function() {
+                    setTimeout(function() {
+                        const perfData = performance.getEntriesByType('navigation')[0];
+                        if (perfData && typeof gtag !== 'undefined') {
+                            gtag('event', 'page_performance', {
+                                'page_load_time': Math.round(perfData.loadEventEnd - perfData.loadEventStart),
+                                'dom_content_loaded': Math.round(perfData.domContentLoadedEventEnd - perfData.domContentLoadedEventStart)
+                            });
+                        }
+                    }, 0);
+                });
+            }
+            
             // Load game immediately
             loadGame();
             
-            // Setup navigation
+            // Setup navigation with improved SEO handling
             document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                 anchor.addEventListener('click', function (e) {
                     e.preventDefault();
-                    const target = document.querySelector(this.getAttribute('href'));
-                    smoothScrollTo(target);
+                    const href = this.getAttribute('href');
+                    const sectionId = href.substring(1);
+                    
+                    // Use enhanced navigation function
+                    navigateToSection(sectionId);
                 });
             });
+            
+            // Handle direct section access from URL parameters
+            const urlParams = new URLSearchParams(window.location.search);
+            const section = urlParams.get('section');
+            if (section) {
+                const targetSection = document.getElementById(section);
+                if (targetSection) {
+                    setTimeout(() => {
+                        smoothScrollTo(targetSection);
+                    }, 100);
+                }
+            }
 
             // Lazy loading for elements
             const observer = new IntersectionObserver((entries) => {
@@ -1363,6 +1434,26 @@
                     gameFrame.style.height = getComputedStyle(gameFrame).height;
                 }
             }, 100);
+        });
+        
+        // Error handling and monitoring
+        window.addEventListener('error', function(e) {
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'javascript_error', {
+                    'error_message': e.message,
+                    'error_filename': e.filename,
+                    'error_lineno': e.lineno
+                });
+            }
+        });
+        
+        // Unhandled promise rejection handling
+        window.addEventListener('unhandledrejection', function(e) {
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'promise_rejection', {
+                    'error_message': e.reason
+                });
+            }
         });
     </script>
 </body>
